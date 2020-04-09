@@ -1,0 +1,13 @@
+plugins {
+    // Apply the java plugin to add support for Java
+    id 'java'
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    // Use JUnit test framework
+    testImplementation 'junit:junit:4.12'
+}
