@@ -1,0 +1,15 @@
+plugins {
+    // Apply the java plugin to add support for Java
+    id 'java'
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    implementation project(':common')
+    implementation 'info.clearthought:table-layout:4.3.0'
+    // Use JUnit test framework
+    testImplementation 'junit:junit:4.12'
+}
